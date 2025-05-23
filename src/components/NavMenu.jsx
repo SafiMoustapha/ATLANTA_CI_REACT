@@ -19,7 +19,7 @@ const NavMenu = () => {
                     <a href="#">FAQ</a>
                 </li>
                 <li className='hover:bg-gray-300 p-2 rounded-sm transition-duration-300'>
-                    <a href="#">Nous contacter</a>
+                    <a href="../pages/Compte">Nous contacter</a>
                 </li>
                 <AccountButton />
             </ul>
