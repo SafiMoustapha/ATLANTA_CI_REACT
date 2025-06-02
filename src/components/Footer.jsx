@@ -10,9 +10,9 @@ const Footer = () => {
     };
 
     return (
-        <footer className="w-full h-[70vh] bg-blue-950 text-white">
+        <footer className="w-full h-[70vh] bg-[#031323] text-white">
             {/* Partie principale */}
-            <div className="w-full h-[62vh] bg-[#010244] text-white text-center sm:text-start sm:pl-10 py-8 overflow-x-hidden sm:overflow-visible">
+            <div className="w-full h-[62vh] bg-[#031323] text-white text-center sm:text-start sm:pl-10 py-8 overflow-x-hidden sm:overflow-visible">
                 <div className="grid grid-cols-1 sm:[grid-template-columns:repeat(6,minmax(0,1fr))_40px] gap-6">
                     {/* Produits */}
                     <div className="space-y-2">
@@ -40,7 +40,7 @@ const Footer = () => {
 
                     {/* Atlanta */}
                     <div className="space-y-2">
-                        <h3 className="font-bold"></h3>
+                        <h3 className="font-bold">ATLANTA</h3>
                         <nav>
                             <ul className="space-y-2 text-gray-400">
                                 <li><a href="#">Qui sommes-nous</a></li>
