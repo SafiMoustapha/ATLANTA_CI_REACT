@@ -1,4 +1,4 @@
-import FAQBackground from "../assets/background_faq.jpg"
+import FAQBackground from "../assets/backgroud_faq.jpg"
 
 const AccueilFAQ = () => {
     return (
@@ -11,7 +11,7 @@ const AccueilFAQ = () => {
                         Posez vos questions à Abla, notre IA dédiée, et consultez notre liste complète de questions fréquemment posées pour des réponses claires et immédiates sur tous vos besoins en assurance.
                     </p>
                 </div>
-                <div className="absolute bottom-0 right-0 left-0 text-center p-4 bg-gray-300 text-[0.57rem] text-[#497b9c] font-bold lg:hidden">
+                <div className="absolute bottom-0 right-0 left-0 text-start text-[0.57rem] text-gray-400 font-bold lg:hidden">
                     <p>
                         Posez vos questions à Abla, notre IA dédiée, et consultez notre liste complète de questions fréquemment posées pour des <br/>réponses claires et immédiates sur tous vos besoins en assurance.
                     </p>

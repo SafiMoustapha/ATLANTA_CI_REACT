@@ -42,7 +42,7 @@ const SinistreAssistance = () => {
                         gestionnaires spécialisés vous rappellera pour un accompagnement adapté à
                         vos besoins.
                     </p>
-                    <button className="bg-[#497b9c] text-white font-semibold py-2 px-4 hover:bg-[#007aa1] transition">
+                    <button className="bg-[#0094c2] text-white font-semibold py-2 px-4 hover:bg-[#007aa1] transition">
                         DÉCLARER UN SINISTRE
                     </button>
                 </div>

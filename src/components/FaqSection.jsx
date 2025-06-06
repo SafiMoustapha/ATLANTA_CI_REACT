@@ -23,7 +23,7 @@ const faqs = [
     }
 ];
 
-export default function FaqSection() {
+const FaqSection = () => {
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggle = (index) => {
@@ -66,3 +66,5 @@ export default function FaqSection() {
         </div>
     );
 }
+
+export default FaqSection;

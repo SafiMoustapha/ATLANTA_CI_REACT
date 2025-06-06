@@ -1,9 +1,11 @@
 import AccueilFAQ from "../components/AccueilFAQ";
+import QuestionsFAQ from "../components/QuestionsFAQ";
 
 function FAQ() {
     return (
-        <main>
+        <main className='mt-[75px] lg:mt-[85px]'>
             <AccueilFAQ />
+            <QuestionsFAQ />
         </main>
     );
 }
