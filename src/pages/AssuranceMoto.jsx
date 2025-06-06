@@ -1,6 +1,6 @@
 import AccueilMoto from "../components/AccueilMoto";
 import AvantagesMoto from "../components/AvantagesMoto";
-import ComparMoto from "../components/ComparMOto";
+import ComparMoto from "../components/ComparMoto";
 import SinistreAssistance from "../components/SinistreAssistance";
 import SinistreAuto from "../components/SinistreAuto";
 
