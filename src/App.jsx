@@ -10,10 +10,12 @@ import AssuranceAuto from './pages/Assurance/Auto/AssuranceAuto';
 import AssuranceCamion from './pages/Assurance/Camion/AssuranceCamion';
 import AssuranceCamionnette from './pages/Assurance/Camionnette/AssuranceCamionnette';
 import AssuranceMoto from './pages/Assurance/Moto/AssuranceMoto';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className='App'>
         <Header />
         <Routes>
