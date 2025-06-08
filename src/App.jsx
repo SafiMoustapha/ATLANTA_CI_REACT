@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Accueil from './pages/Accueil';
-import Compte from './pages/Compte';
-import Assistance from './pages/Assistance';
-import FAQ from './pages/FAQ';
-import Contact from './pages/Contact';
-import AssuranceAuto from './pages/AssuranceAuto';
-import AssuranceCamion from './pages/AssuranceCamion';
-import AssuranceCamionnette from './pages/AssuranceCamionnette';
-import AssuranceMoto from './pages/AssuranceMoto';
+import Accueil from './pages/Accueil/Accueil';
+import Compte from './pages/Auth/Compte';
+import Assistance from './pages/Assistance/Assistance';
+import FAQ from './pages/FAQ/FAQ';
+import Contact from './pages/Contact/Contact';
+import AssuranceAuto from './pages/Assurance/Auto/AssuranceAuto';
+import AssuranceCamion from './pages/Assurance/Camion/AssuranceCamion';
+import AssuranceCamionnette from './pages/Assurance/Camionnette/AssuranceCamionnette';
+import AssuranceMoto from './pages/Assurance/Moto/AssuranceMoto';
 
 function App() {
   return (

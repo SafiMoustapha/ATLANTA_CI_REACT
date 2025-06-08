@@ -110,7 +110,7 @@ const FaqFAQ = () => {
                     className="bg-[#f6f6f6] border border-[#ddd] rounded"
                 >
                     <div className="flex justify-between items-center px-4 py-3 cursor-pointer" onClick={() => toggle(index)}>
-                        <span className="text-[#497b9c] font-medium text-sm">
+                        <span className="text-[#497b9c] font-medium text-sm w-[90%]">
                             {item.question}
                         </span>
                         <button

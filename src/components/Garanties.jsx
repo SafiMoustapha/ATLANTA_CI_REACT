@@ -38,10 +38,10 @@ const Garanties = () => {
                     <div className="w-36 h-36 rounded-full flex items-center justify-center mb-4">
                         <img src={item.icon} alt={item.title} className="w-full" />
                     </div>
-                    <h3 className="text-[#497b9c] font-bold text-lg mb-3">{item.title}</h3>
+                    <h3 className="text-[#497b9c] font-bold text-lg lg:text-2xl mb-3">{item.title}</h3>
                     {/* Infos */}
                     {item.infos.map((info, idx) => (
-                        <p key={idx} className="mb-2">
+                        <p key={idx} className="mb-2 lg:text-xl">
                             {info.label}
                             <br />
                             <span className="text-[#497b9c] flex items-center justify-center gap-2">

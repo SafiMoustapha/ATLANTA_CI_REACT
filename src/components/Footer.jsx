@@ -10,9 +10,9 @@ const Footer = () => {
     };
 
     return (
-        <footer className="w-full h-[70vh] bg-[#031323] text-white">
+        <footer className="w-full h-auto sm:h-[70vh] bg-[#031323] text-white">
             {/* Partie principale */}
-            <div className="w-full h-[62vh] bg-[#031323] text-white text-center sm:text-start sm:pl-10 py-8 overflow-x-hidden sm:overflow-visible">
+            <div className="w-full sm:h-[62vh] bg-[#031323] text-white text-center sm:text-start sm:pl-10 py-8 overflow-x-hidden sm:overflow-visible">
                 <div className="grid grid-cols-1 sm:[grid-template-columns:repeat(6,minmax(0,1fr))_40px] gap-6">
                     {/* Produits */}
                     <div className="space-y-2">
@@ -69,11 +69,11 @@ const Footer = () => {
 
                     {/* Suivez-nous */}
                     <div className="space-y-2">
-                        <h3 className="font-bold"></h3>
+                        <h3 className="font-bold">SUIVEZ-NOUS</h3>
                     </div>
 
                     {/* Bouton retor en haut */}
-                    <div className="flex items-center justify-start h-full">
+                    <div className="flex items-center justify-center lg:justify-start h-full">
                         <div className="rounded-full bg-gray-300 flex items-center justify-center">
                         <button onClick={scrollTop}>
                             <img src={flecheEnHaut} alt="Retour en haut" className="rounded-full p-[10px]" />
@@ -84,7 +84,7 @@ const Footer = () => {
             </div>
 
             {/* Pied de page */}
-            <div className="flex items-center justify-start sm:justify-start pl-4 w-full h-[8vh] bg-black text-[0.8rem] font-light">
+            <div className="flex items-center justify-center sm:justify-start pl-4 w-full h-[8vh] bg-black text-[0.8rem] font-light">
                 <p>Release 1.1</p>
             </div>
         </footer>

@@ -6,7 +6,7 @@ const QuestionsFAQ = () => {
     return (
         <section className="bg-white">
             <div className="flex flex-col justify-center items-center">
-                <h2 className="text-[#497b9c] font-bold text-center py-4">
+                <h2 className="text-[#497b9c] font-bold text-center lg:text-2xl py-4">
                     Poser votre question,<nr/>je serai heureuse de vous répondre
                 </h2>
                 <span className="bg-[#ff802b] w-[100px] h-1 mb-6"></span>
@@ -33,7 +33,7 @@ const QuestionsFAQ = () => {
             </div>
             <div className="bg-[#eaf5fc]">
                 <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-[#497b9c] font-bold text-center py-4">
+                    <h2 className="text-[#497b9c] font-bold text-center lg:text-2xl py-4">
                         Foire aux questions
                     </h2>
                     <span className="bg-[#ff802b] w-[100px] h-1 mb-6"></span>

@@ -21,9 +21,9 @@ const TelContact = () => {
     ];
 
     return (
-        <section>
+        <section className="flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center">
-                <h2 className="text-[#497b9c] font-bold text-center py-4">
+                <h2 className="text-[#497b9c] font-bold text-center lg:text-2xl py-4">
                     Nous contacter par formulaire
                 </h2>
                 <span className="bg-[#ff802b] w-[100px] h-1 mb-6"></span>
@@ -31,7 +31,7 @@ const TelContact = () => {
                     Veuillez remplir le formulaire ci-dessous et nous allons traité votre demande dans les plus brefs délais
                 </p>
             </div>
-            <form className="space-y-4 px-4">
+            <form className="space-y-4 px-4 pb-6 lg:w-1/2">
                 <LabelFlottantSelect
                     id="statut"
                     label="Je suis"
@@ -64,12 +64,15 @@ const TelContact = () => {
                 />
                 <LabelFlottantTextarea
                     id="message"
-                    label="Message"
+                    label="Votre demande"
                     value={message}
                     onChange={setMessage}
                     required
                     rows={5}
                 />
+                <button className="bg-[#0094c2] text-white px-14 py-2 font-bold rounded">
+                    Envoyer
+                </button>
             </form>
         </section>
     );

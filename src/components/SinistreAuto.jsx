@@ -7,18 +7,18 @@ const SinistreAuto = () => {
     return (
         <section>
             <div className="flex flex-col justify-center items-center">
-                <h2 className="text-[#497b9c] font-bold text-center py-4">
+                <h2 className="text-[#497b9c] font-bold text-xs md:text-lg text-center py-4">
                     Les + en cas de sinistre AUTOMOBILE avec <br/>ATLANTA ASSURANCE
                 </h2>
                 <span className="bg-[#ff802b] w-[100px] h-1 mb-6"></span>
             </div>
-            <div className="grid grid-cols-3 gap-4 text-center px-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:text-center px-10">
                 <div className="flex flex-col justify-start items-center">
                     <figure className="flex flex-col justify-center items-center mb-1">
                         <img src={Sinistre1} alt="" />
-                        <figcaption className="text-[#497b9c] font-bold text-sm my-1">Indemnisation Rapide</figcaption>
+                        <figcaption className="text-[#497b9c] font-bold text-sm my-1 lg:text-xl">Indemnisation Rapide</figcaption>
                     </figure>
-                    <ul className="text-gray-500 text-[0.8rem]">
+                    <ul className="text-gray-500 text-[0.8rem] lg:text-[1rem]">
                         <li className="flex items-center justify-start gap-2">
                             <img src={Valid} alt="" className="w-4" />
                             Confiance et transpaence.
@@ -40,9 +40,9 @@ const SinistreAuto = () => {
                 <div>
                     <figure className="flex flex-col justify-center items-center mb-1">
                         <img src={Sinistre2} alt="" />
-                        <figcaption className="text-[#497b9c] font-bold text-sm my-1">Assistance d'Experts</figcaption>
+                        <figcaption className="text-[#497b9c] font-bold text-sm my-1 lg:text-xl">Assistance d'Experts</figcaption>
                     </figure>
-                    <ul className="text-gray-500 text-[0.8rem]">
+                    <ul className="text-gray-500 text-[0.8rem] lg:text-[1rem]">
                         <li className="flex items-center justify-start gap-2">
                             <img src={Valid} alt="" className="w-4" />
                             Assistance complète en cas de sinistre
@@ -64,9 +64,9 @@ const SinistreAuto = () => {
                 <div>
                     <figure className="flex flex-col justify-center items-center mb-1">
                         <img src={Sinistre3} alt="" />
-                        <figcaption className="text-[#497b9c] font-bold text-sm my-1">Déclaration Simplifiée en Ligne</figcaption>
+                        <figcaption className="text-[#497b9c] font-bold text-sm my-1 lg:text-xl">Déclaration Simplifiée en Ligne</figcaption>
                     </figure>
-                    <ul className="text-gray-500 text-[0.8rem]">
+                    <ul className="text-gray-500 text-[0.8rem] lg:text-[1rem]">
                         <li className="flex items-center justify-start gap-2">
                             <img src={Valid} alt="" className="w-4" />
                             Déclarer votre sinistre facilement via notre plateforme en ligne.

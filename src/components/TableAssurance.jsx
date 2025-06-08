@@ -3,7 +3,7 @@ import True from "../assets/true.png"
 
 const TableAssurance = () => {
     return (
-        <table className="table-auto w-full border-collapse text-xs">
+        <table className="table-auto w-full border-collapse text-xs lg:text-xl">
                 <thead>
                     <tr className="bg-gradient-to-b from-[#7cc0e8] to-[#b8e1fb] text-left text-[#497b9c] font-bold">
                         <th className="p-2 border-r border-white">Garanties par formule</th>
@@ -109,7 +109,7 @@ const TableAssurance = () => {
                             <img src={flecheOrange} alt="" />
                             <a href="#" className=" font-bold">Assistance</a>
                         </td>
-                        <td className="text-center text-xs">Assistance 1</td>
+                        <td className="text-center text-xs lg:text-xl">Assistance 1</td>
                     </tr>
                 </tbody>
             </table>
