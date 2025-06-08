@@ -25,7 +25,7 @@ const SectionContact = () => {
 
                 {/* Bouton desktop */}
                 <div className="hidden lg:flex items-end justify-end w-full pr-32">
-                    <button className="text-[#497b9c] font-extrabold rounded-lg flex items-center justify-start w-full lg:w-[280px] py-4 border-2 border-[#497b9c] mt-16">Contactez-nous</button>
+                    <button className="text-[#497b9c] font-extrabold rounded-lg flex items-center justify-center w-full lg:w-[280px] py-4 border-2 border-[#497b9c] mt-16">Contactez-nous</button>
                 </div>
 
                 {/* Bouton mobile */}
